@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    text-align: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.1)) ,url(./banner.jpg) center/cover fixed no-repeat;
+}
+
+.heading{
+    font-size: 4rem;
+    text-shadow: 3px 3px 8px black;
+}
+
+.container{
+    padding: 4rem;
+    border: 4px solid #220314;
+    border-radius: 20px;
+    transition: all 1.6s ease-in-out;
+}
+.container:hover{
+    box-shadow:0 0 50px rgb(34, 33, 33);
+}
+
+.count_num{
+    font-size: 5rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 10px black;
+}
+
+.increament_btn,.decreament_btn
+{
+padding: 0.4rem;
+transition: all 1s ease-in-out;
+border: 3px solid black;
+border-radius: 8px;
+box-shadow: 0 0 30px rgb(204, 200, 200);
+text-shadow: 1.5px 1.5px 4px black;
+cursor: pointer;
+outline: none;
+font-weight: bolder;
+text-transform: capitalize;
+margin: 2rem auto;
+}
+
+.increament_btn:hover
+{
+box-shadow: 0 0 30px rgb(125, 19, 212);
+}
+.decreament_btn:hover{
+    box-shadow: 0 0 30px rgb(226, 65, 73);
+}
